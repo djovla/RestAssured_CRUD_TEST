@@ -51,7 +51,7 @@ public class TS_001_CRUD_Devqa_Example {
 		response = request.get("/comments");
 
 		// Printing the JSON data from the server using the Body to the console
-		System.out.println(response.body().asString());
+		System.out.println("METHOD GET "+response.body().asString());
 
 		// Verify if the Status code is valid
 		Assert.assertEquals(200, response.getStatusCode());
@@ -70,7 +70,7 @@ public class TS_001_CRUD_Devqa_Example {
 		response = request.post("/posts");
 
 		// Printing the JSON data from the server using the Body to the console
-		System.out.println("METHOD PUT :" + response.body().asString());
+		System.out.println("METHOD POST :" + response.body().asString());
 
 		// Verify if the Status code is valid
 		Assert.assertEquals(201, response.getStatusCode());
@@ -124,11 +124,12 @@ public class TS_001_CRUD_Devqa_Example {
 		response = request.patch("/posts/1");
 
 		// Printing the JSON data from the server using the Body to the console
-		System.out.println(response.body().asString());
+		System.out.println("METHOD PATCH "+response.body().asString());
 
 		// Verify the Title has changed
 		Assert.assertEquals("Software Engineer", response.jsonPath().getString("title"));
 	}
+	
 
 	@Test(priority = 5)
 	public void deleteDataApi() {
@@ -136,7 +137,7 @@ public class TS_001_CRUD_Devqa_Example {
 		response = request.delete("/posts/1");
 
 		// Printing the JSON data from the server using the Body to the console
-		System.out.println(response.body().asString());
+		System.out.println("METHOD DELETE " +response.body().asString());
 
 		// Verify the Status Code
 		Assert.assertEquals(200, response.getStatusCode());
