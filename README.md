@@ -7,7 +7,7 @@ putDataApi() is a Test Method that implement the PUT Method
 patchDataApi() is a Test Method that implement the PATCH Method
 deleteDataApi() is a Test Method that implement the DELETE Method
 
-#Two Deserializations TEST METHOD are added
+#Two Deserialization TEST METHODS are added
 -deserializationTest() 
 This method will deserialize the body to an array Object and will query the body to get the first object 
 so it can verify that the first Object of the Array is equal to the Json Object .
