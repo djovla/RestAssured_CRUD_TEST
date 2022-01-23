@@ -1,40 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2839" started-at="2022-01-21T18:48:43 EST" finished-at="2022-01-21T18:48:46 EST">
+  <suite name="Default suite" duration-ms="3647" started-at="2022-01-23T18:01:28 EST" finished-at="2022-01-23T18:01:31 EST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2839" started-at="2022-01-21T18:48:43 EST" finished-at="2022-01-21T18:48:46 EST">
+    <test name="Default test" duration-ms="3647" started-at="2022-01-23T18:01:28 EST" finished-at="2022-01-23T18:01:31 EST">
       <class name="sampleTest.TS_001_CRUD_Devqa_Example">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:sampleTest.TS_001_CRUD_Devqa_Example@5427c60c]" name="beforeClass" is-config="true" duration-ms="482" started-at="2022-01-21T18:48:43 EST" finished-at="2022-01-21T18:48:43 EST">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:sampleTest.TS_001_CRUD_Devqa_Example@543e710e]" name="beforeClass" is-config="true" duration-ms="486" started-at="2022-01-23T18:01:28 EST" finished-at="2022-01-23T18:01:28 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="getDataApi()[pri:1, instance:sampleTest.TS_001_CRUD_Devqa_Example@5427c60c]" name="getDataApi" duration-ms="1530" started-at="2022-01-21T18:48:43 EST" finished-at="2022-01-21T18:48:45 EST">
+        <test-method status="PASS" signature="getDataApi()[pri:1, instance:sampleTest.TS_001_CRUD_Devqa_Example@543e710e]" name="getDataApi" duration-ms="1533" started-at="2022-01-23T18:01:28 EST" finished-at="2022-01-23T18:01:30 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDataApi -->
-        <test-method status="PASS" signature="postDataApi()[pri:2, instance:sampleTest.TS_001_CRUD_Devqa_Example@5427c60c]" name="postDataApi" duration-ms="181" started-at="2022-01-21T18:48:45 EST" finished-at="2022-01-21T18:48:45 EST">
+        <test-method status="PASS" signature="postDataApi()[pri:2, instance:sampleTest.TS_001_CRUD_Devqa_Example@543e710e]" name="postDataApi" duration-ms="208" started-at="2022-01-23T18:01:30 EST" finished-at="2022-01-23T18:01:30 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postDataApi -->
-        <test-method status="PASS" signature="putDataApi()[pri:3, instance:sampleTest.TS_001_CRUD_Devqa_Example@5427c60c]" name="putDataApi" duration-ms="158" started-at="2022-01-21T18:48:45 EST" finished-at="2022-01-21T18:48:45 EST">
+        <test-method status="PASS" signature="putDataApi()[pri:3, instance:sampleTest.TS_001_CRUD_Devqa_Example@543e710e]" name="putDataApi" duration-ms="160" started-at="2022-01-23T18:01:30 EST" finished-at="2022-01-23T18:01:30 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- putDataApi -->
-        <test-method status="PASS" signature="patchDataApi()[pri:4, instance:sampleTest.TS_001_CRUD_Devqa_Example@5427c60c]" name="patchDataApi" duration-ms="143" started-at="2022-01-21T18:48:45 EST" finished-at="2022-01-21T18:48:46 EST">
+        <test-method status="PASS" signature="patchDataApi()[pri:4, instance:sampleTest.TS_001_CRUD_Devqa_Example@543e710e]" name="patchDataApi" duration-ms="174" started-at="2022-01-23T18:01:30 EST" finished-at="2022-01-23T18:01:30 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- patchDataApi -->
-        <test-method status="PASS" signature="getDataLastApi()[pri:5, instance:sampleTest.TS_001_CRUD_Devqa_Example@5427c60c]" name="getDataLastApi" duration-ms="137" started-at="2022-01-21T18:48:46 EST" finished-at="2022-01-21T18:48:46 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getDataLastApi -->
-        <test-method status="PASS" signature="deleteDataApi()[pri:6, instance:sampleTest.TS_001_CRUD_Devqa_Example@5427c60c]" name="deleteDataApi" duration-ms="164" started-at="2022-01-21T18:48:46 EST" finished-at="2022-01-21T18:48:46 EST">
+        <test-method status="PASS" signature="deleteDataApi()[pri:5, instance:sampleTest.TS_001_CRUD_Devqa_Example@543e710e]" name="deleteDataApi" duration-ms="171" started-at="2022-01-23T18:01:30 EST" finished-at="2022-01-23T18:01:30 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteDataApi -->
+        <test-method status="PASS" signature="deserializationTest()[pri:6, instance:sampleTest.TS_001_CRUD_Devqa_Example@543e710e]" name="deserializationTest" duration-ms="689" started-at="2022-01-23T18:01:30 EST" finished-at="2022-01-23T18:01:31 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deserializationTest -->
+        <test-method status="PASS" signature="deserializedObjectTest()[pri:7, instance:sampleTest.TS_001_CRUD_Devqa_Example@543e710e]" name="deserializedObjectTest" duration-ms="184" started-at="2022-01-23T18:01:31 EST" finished-at="2022-01-23T18:01:31 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deserializedObjectTest -->
       </class> <!-- sampleTest.TS_001_CRUD_Devqa_Example -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

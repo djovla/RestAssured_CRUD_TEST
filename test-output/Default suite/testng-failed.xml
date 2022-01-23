@@ -5,7 +5,7 @@
     <classes>
       <class name="sampleTest.TS_001_CRUD_Devqa_Example">
         <methods>
-          <include name="getDataApi"/>
+          <include name="deserializationTest"/>
           <include name="beforeClass"/>
         </methods>
       </class> <!-- sampleTest.TS_001_CRUD_Devqa_Example -->
